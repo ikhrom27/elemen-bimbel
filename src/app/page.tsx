@@ -35,8 +35,8 @@ export default function Home() {
         <div className="mt-16 w-full max-w-4xl mx-auto rounded-3xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-surface-container-high relative">
           <img 
             className="w-full h-auto object-cover aspect-video" 
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7hKfuKs1tEeD-jwHziwEkUNsccDfv3BtjfJCzu6FCr1kMXEjRrQFZCsLuXVaVAjQCq08-0vhTkFMWoMwEGLFWgtxKgKm5zzKlEiKgOsAoDACHsSjMIb2irYw6eVHIFLoKItMWwYqGyX6lVTiYsUw3rIKKZxnRjsxJsWe1JS11y96No8V5VWsvSxFRy900g0vabtNDcmWOUSmJRu5-oqLH2KJC0BMsP4pBW_U3blEZa_ZLBqr9ySg9jQ" 
-            alt="Group of high school students studying together happily"
+            src="/hero-bimbel.jpeg" 
+            alt="Suasana Belajar Siswa Bimbel Element"
           />
           <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-secondary-container rounded-full mix-blend-multiply filter blur-2xl opacity-50"></div>
           <div className="absolute -top-4 -left-4 w-32 h-32 bg-primary-container rounded-full mix-blend-multiply filter blur-2xl opacity-50"></div>
@@ -53,7 +53,7 @@ export default function Home() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-gutter">
-            <div className="bg-surface rounded-2xl p-card-padding soft-lift text-center md:text-left flex flex-col items-center md:items-start">
+            <div className="bg-surface rounded-2xl p-card-padding border-t-4 border-primary shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_rgba(0,101,101,0.15)] hover:-translate-y-3 hover:z-10 transition-all duration-300 relative flex flex-col items-center md:items-start text-center md:text-left">
               <div className="w-14 h-14 bg-offline-bg text-primary rounded-full flex items-center justify-center mb-6">
                 <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>school</span>
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-online-bg rounded-2xl p-card-padding shadow-[0_10px_30px_rgba(0,0,0,0.05)] border-t-4 border-secondary-container relative transform md:-translate-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="bg-online-bg rounded-2xl p-card-padding border-t-4 border-secondary-container shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_rgba(254,165,32,0.2)] hover:-translate-y-3 hover:z-10 transition-all duration-300 relative flex flex-col items-center md:items-start text-center md:text-left">
               <div className="absolute -top-4 right-6 bg-secondary-container text-on-secondary-container px-3 py-1 rounded-full font-label-bold text-xs uppercase shadow-sm flex items-center gap-1">
                 <span className="material-symbols-outlined text-[14px]">stars</span> New!
               </div>
@@ -76,7 +76,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="bg-surface rounded-2xl p-card-padding soft-lift text-center md:text-left flex flex-col items-center md:items-start">
+            <div className="bg-surface rounded-2xl p-card-padding border-t-4 border-primary shadow-[0_10px_30px_rgba(0,0,0,0.05)] hover:shadow-[0_20px_40px_rgba(0,101,101,0.15)] hover:-translate-y-3 hover:z-10 transition-all duration-300 relative flex flex-col items-center md:items-start text-center md:text-left">
               <div className="w-14 h-14 bg-offline-bg text-primary rounded-full flex items-center justify-center mb-6">
                 <span className="material-symbols-outlined text-3xl" style={{ fontVariationSettings: "'FILL' 1" }}>analytics</span>
               </div>
@@ -270,7 +270,7 @@ export default function Home() {
             
             <div className="w-full h-64 md:h-[400px] md:rounded-[24px] overflow-hidden md:shadow-lg md:border border-surface-container-high bg-surface-container-low">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.035243214567!2d106.1548!3d-6.1149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e41891643b26791%3A0x401576d14fed900!2sSerang%2C%20Serang%20City%2C%20Banten!5e0!3m2!1sen!2sid!4v1710000000000!5m2!1sen!2sid" 
+                src="https://maps.google.com/maps?q=-6.134435,106.1383&hl=id&z=16&output=embed" 
                 style={{ border: 0, width: '100%', height: '100%' }} 
                 allowFullScreen={true} 
                 loading="lazy" 
@@ -311,7 +311,7 @@ export default function Home() {
               </div>
               <div className="mt-4">
                 <a 
-                  href="https://maps.google.com" 
+                  href="https://www.google.com/maps/dir/?api=1&destination=-6.134435,106.1383" 
                   target="_blank"
                   rel="noreferrer" 
                   className="w-full md:w-auto inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-on-primary rounded-xl font-label-bold shadow-md hover:bg-primary-container transition-all duration-300"
