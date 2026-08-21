@@ -17,6 +17,11 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Bimbel Element - Raih PTN Impianmu",
   description: "Bimbingan belajar terpercaya untuk persiapan Ujian Sekolah dan UTBK.",
+  icons: {
+    icon: "/logo.png",
+    shortcut: "/logo.png",
+    apple: "/logo.png",
+  },
 };
 
 export default function RootLayout({

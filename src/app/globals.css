@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+button,
+[role="button"],
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  cursor: pointer;
+}
+
 @theme {
   --color-on-primary-fixed: #002020;
   --color-success-green: #27AE60;
